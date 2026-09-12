@@ -14,6 +14,8 @@ nmcli dev wifi list
 python3 guard.py
 
 # 6. GitHub par push karne ke liye
-git add .
+git add 
+
 git commit -m "update"
+
 git push
