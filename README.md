@@ -1,17 +1,31 @@
-1. Kali me Terminal kholo
-2. Tool download karo:
-3. git clone https://github.com/theamitkoyree-cmyk/Bharat-Wifi-Guard.git
-4. Folder ke andar jao:
-5. cd Bharat-Wifi-Guard
-6. Check karo file hai ya nahi
-7. ls
-8. Tool chalao
-9. python3 guard.py
-10.Agar list khali aaye to manually check karne ki command (ye tool ke andar hi use hui hai):
-11.nmcli dev wifi list
-12.README update karna ho to
-13.nano README.md (edit karke CTRL+O > Enter > CTRL+X)
-   
-git add README.md
-git commit -m "Updated README"
-git push
+# 🇮🇳 Bharat WiFi Guard
+
+Bharat WiFi Guard ek simple Python tool hai jo aas-paas ke Fake / Suspicious WiFi networks ko detect karne me help karta hai. Ye tool `nmcli` ka use karke WiFi scan karta hai aur open / bina security wale networks ko alert karta hai.
+
+Made with ❤️ by [theamitkoyree](https://github.com/theamitkoyree-cmyk)
+
+---
+
+### ✨ Features
+- Aas-paas ke saare WiFi networks ko scan karta hai
+- Open / Free WiFi ko Suspicious ke roop me batata hai
+- Signal strength aur Security dikhata hai
+- Kali Linux / Ubuntu ke liye perfect
+
+### ⚙️ Requirements
+- Kali Linux / Ubuntu / Parrot OS
+- Python 3
+- NetworkManager (`nmcli`)
+
+### 🚀 Installation & Usage
+
+**1. Kali me Terminal kholo**
+
+**2. Tool download karo:**
+```bash
+git clone https://github.com/theamitkoyree-cmyk/Bharat-Wifi-Guard.git
+
+cd Bharat-Wifi-Guard
+ls
+python3 guard.py
+nmcli dev wifi list
