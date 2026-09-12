@@ -1,25 +1,19 @@
-# Bharat-WiFi-Guard 🇮🇳
-Apne WiFi Network ko secure aur scan karne ka desi tool.
-
-### ✨ Features
-- Aas-paas ke saare WiFi networks ko scan karta hai
-- Open / Free WiFi ko Suspicious ke roop me batata hai
-- Signal strength aur Security dikhata hai
-- Kali Linux / Ubuntu ke liye perfect
-
-### ⚙️ Requirements
-- Kali Linux / Ubuntu / Parrot OS
-- Python 3
-- NetworkManager ( nmcli )
-
-### 🚀 Installation & Usage
-
-1. Kali me Terminal kholo
-
-2. Tool download karo:
-```bash
+# 1. Tool download karo
 git clone https://github.com/theamitkoyree-cmyk/Bharat-Wifi-Guard.git
+
+# 2. Folder me jao
 cd Bharat-Wifi-Guard
+
+# 3. File hai ya nahi check karo
 ls
-python3 guard.py
+
+# 4. WiFi list check karo (direct)
 nmcli dev wifi list
+
+# 5. Tool chalao (main command)
+python3 guard.py
+
+# 6. GitHub par push karne ke liye
+git add .
+git commit -m "update"
+git push
